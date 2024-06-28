@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/usrsdkmanager --install
+          ["ndk;major.minor.build[suffix]" | "cmake;major.minor.micro.build"]
+		            [--channel=channel_id]/bin/env bash
 
 # shellcheck disable=SC2028
 if [[ "${OS_INFO_TYPE}" != "windows" && $UID -ne 0 ]]; then
